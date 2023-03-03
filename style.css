@@ -1,0 +1,163 @@
+body{
+    font-family: 'Roboto', regular;
+    font-size: 100%;
+}
+.container{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 6.25rem;
+    max-width: 1440px;
+}
+.blockDescription{
+    width: 942px;
+    font-size: 1.25em;
+    padding-bottom: 40px;
+    color: #000402;
+}
+.x{
+    position: absolute;
+    right: 11%;
+    border: 5px;
+    order: 2;
+    cursor: pointer;
+    padding-top: 0.75rem;
+    float: right;
+    transform: rotate(-135deg);
+    z-index: 0;
+    transition: transform .24s ease;
+}
+
+footer{
+    padding-top: 100px;
+}
+
+.headerText{
+    font-size: 4em;
+    margin: 0;
+    color: #012B34;
+}
+hr{
+    margin: 0;
+    border: 1px solid #E6E6E6;
+}
+.mainSection{
+    padding-top: 5rem;
+    border-top: 1px;
+}
+.blockName{   
+    font-size: 2.25em;
+    color: #012B34;
+    float: left;
+}
+
+.nameContainer{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    width: 100%;
+}
+
+@media (max-width:1441px){
+    .container{
+        max-width: 1212px;
+        padding-left: 7.5rem;
+        padding-right: 7.5rem;
+        padding-top: 5rem;
+    }
+    body{
+        font-size: 75%;
+    }
+    img{
+        width: 75%;
+    }
+    .mainSection{
+        padding-top: 4rem;
+    }
+    .nameContainer{
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .x{
+        right: 9%;
+        padding-top: 0.5625rem;
+    }
+    .blockDescription{
+        width: 840px;
+    }
+}
+
+@media (max-width:1281px){
+    .container{
+        max-width: 1066px;
+        padding-left: 6.6rem;
+        padding-right: 6.6rem;
+        padding-top: 4.375rem;
+    }
+    body{
+        font-size: 66%;
+    }
+    img{
+        width: 66%;
+    }
+    .nameContainer{
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+    }
+    .x{
+        padding-top: 0.5rem;
+    }
+    .blockDescription{
+        width: 640px;
+    }
+
+}
+@media (max-width:769px){
+    .container{
+        max-width: 688px;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 3rem;
+    }
+   .nameContainer{
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+   }
+    .blockName{
+        width: 40rem;
+    }
+    .x{
+        right: 6%;
+    }
+    .blockDescription{
+        width: 612px;
+    }
+}
+@media (max-width:376px){
+    .container{
+        max-width: 350px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 3rem;
+    }
+    body{
+        font-size: 55%;
+    }
+    img{
+        width: 60%;
+    }
+    .blockName{
+        width: 17rem;
+    }
+    .x{
+        right: 5%;
+    }
+    .headerText{
+        width: 191px;
+    }
+    .blockDescription{
+        width: 327px;
+    }
+}
+
